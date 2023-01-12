@@ -1,0 +1,36 @@
+- O que JS é capaz de fazer?
+Coisas simples e poderosas.
+Faz praticamente tudo.
+
+Cliente x Servidor
+
+O acesso de um dispostivo, ao site do google ou youtube, é o cliente, que precisa de dados de algum(s) servidores
+
+O Acesso:
+é através de um navegador pela:
+URL -www.lalal.com.br
+vai para a infraestrutura da internet que retorna exatamente o servidor,que vai ser enviado
+
+Servidor:
+são máquinas de grande poder de armazenamento. contem diretório, pastas e arquivos.
+O servidor retorna uma cópia do arquivo (foto, texto, video, doc.html) para o cliente.  
+
+O navegador:
+ao receber a cópia do documento o navegador trabalha para mostrar a parte visual.
+
+Java Stcript é uma tecnolgia cliente-side
+(funciona no cliente e servidor mas muito mais do lado do cliente) 
+
+
+------------- website
+HTML - texto, imagem, video (conteúdo).
+CSS - desinger - formatação.
+JavaScript - programação - integrações e interações.
+
+HTML - linguagem de marcação de hipertexto
+CSS - Folhas de Estilo em Cascata
+JavaScript - interações
+
+JS - É uma linguagem de programação
+
+Empresas que usam: Google, youtube, linkedin, netflix, Governo dos EUA etc...

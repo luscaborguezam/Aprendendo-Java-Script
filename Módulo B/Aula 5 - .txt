@@ -1,0 +1,21 @@
+O aprendizado:
+Ver videos
+Praticar
+Ler
+
+Bibliografia: 
+-JavaScript: O Guia Definitivo - David Flanagan
+-Javascript guia do programador Mauricio Samy Silva
+-Guia de referencia da Mozilla - developer.mozilla.org
+	/referencias e guias
+	/tecnologias
+-Guia de referencia da Ecma - ecma international.org
+	/standards
+		ecma 262 (5° e 6° versções)
+
+-----//--
+
+Software usados:
+Navegador: Chrome
+Editor de código: visual studio code
+node.js

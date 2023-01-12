@@ -1,0 +1,55 @@
+1970 - criação da internet, por conta da guerra fra.
+Arpanet - rede gerenciada pelo governo e militares, para protejer dados
+
+Essa rede cresceu ao longo dos anos, peque nas redes faziam parte.
+Por isso seu gerenciamento ficou dificil para o governo.
+mudou seu nome divesas vezes, o ultimo foi a internet
+
+1993 - Timothy Bernes-Lee - criou HTML, protocolo http, word whid web (www)
+surgiu o Mosaic
+
+1994 - Mark Anderson e Jim Clark - criou navegador Netscape baseado no Mosaic
+
+1995 - brandon Eich - Moca >> livescript (logo era um café), mudou o nome para JavaScript pelo sucesso da linguagem Java
+baseados em C.
+
+ - Jscript, microsoft criou o Jscript
+
+1997 - EcmaScript - Netscape cedeu código do JS para ECMA.
+versão padronizada do JavaScript
+
+2002 - Fundação mozilla (Fire Fox)
+
+2008 - Google Chrome - mototr interno de JS
+
+2009 - motor JS é o V8 - código aberto
+
+2010 - Node.Js - máquina que roda JavaScript V8 fora do navegador (do lado do servidor tambem)
+
+----//---
+EcmaScript - padronização do JS
+1997 - 1.0
+1998 - 2.0
+1999 - 3.0 (try cat)
+2009 - ES5 (mais popular)
+2015 - ES6 -> utilizado no curso
+2016 - ES2016
+2017 - ES2017
+2018 - ES2018
+
+--- Tecnologias que surgiram por conta do JS
+jQuery (biblioteca de interatividade)
+Angular 
+React (Facebook)
+Vue.js
+Electon (interface gráfica)
+Ionic (SDK para criar aplicações para dispositivos móveis)
+Cordova
+
+-Jogos
+Phaser
+PixiJS
+Impact
+melon.js
+crafty.js
+ 
