@@ -1,0 +1,33 @@
+Number
+String
+window.prompt('Qual seu nome?')
+
+--//
+var 
+const 
+let
+--//
+Number.parseInt(variavel)
+Number.parseFloat(variavel)
+parseFloat
+parseInt
+Number //(nas verssões atuais, identifica o tipo sozinho)
+
+-- formatação ponto flutuante
+nuber.toFixed(2) // 1 -> 1.00
+number.replace('.', ',') //1,00
+
+
+--//
+template string `nota: ${variavel}`
+${} -> place holder
+
+--// manipulando strings
+string.length // retorna a quanidade de caracteres
+string.UpperCase() //converte para minusculo
+string.LowerCase() // converte para maiusculo
+
+n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})
+// Locliza uma string em portugues, definindo em valor monetario(currency) na moeda brasileira'BRL'
+--// Script
+document.write('texto') // insere texto no documento

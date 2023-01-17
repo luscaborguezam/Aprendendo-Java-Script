@@ -1,21 +1,33 @@
-O aprendizado:
-Ver videos
-Praticar
-Ler
+// código
+window.alert()
+window.confirm()
+window.prompt()
 
-Bibliografia: 
--JavaScript: O Guia Definitivo - David Flanagan
--Javascript guia do programador Mauricio Samy Silva
--Guia de referencia da Mozilla - developer.mozilla.org
-	/referencias e guias
-	/tecnologias
--Guia de referencia da Ecma - ecma international.org
-	/standards
-		ecma 262 (5° e 6° versções)
+/**/  or // <- comentário
 
------//--
+------- Tipos primitivos
+// códigos
+typeof variavel <- retorna o tipo da variável
 
-Software usados:
-Navegador: Chrome
-Editor de código: visual studio code
-node.js
+Strings
+'' or "" or ``
+
+Number
+    infinity
+    Not an namber (NAN)
+
+boolean
+    True or False (1 or 0)
+
+null
+
+undefined
+object
+    array (vetor)
+
+function
+
+---//
+para criar a variavel usa ' var '
+ex:
+var nome
