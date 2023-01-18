@@ -1,0 +1,24 @@
+Relacionais
+lógicos
+ternários
+
+--Relacionais
+retorna True ou Falso
+>
+<
+>=
+<=
+== (5 == '5' -> True, pois suas grandezas são iguais)
+!=
+=== (5 === '5' -> False, grandezas iguais, porem o tipo não)
+
+--lógicos
+ordem de precedencia
+1-! negação    (não)
+2-&& conjunção ( e )
+3-|| disjunção (ou )
+
+--ternários
+junta 3 operandos
+teste ? True : False
+var resto = x % 2 == 0? "Par" : "impar"

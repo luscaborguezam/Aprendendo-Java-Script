@@ -1,0 +1,26 @@
+Operadores
+
+-Aritimeticos
+-Atribuição
+-Relacionais
+-Lógicos
+-Ternário
+
+--Aritimeticos
++ - * / % ** --> operadores binários (precisa de dois componentes)
+
++ soma
+- subtração
+* multiplicação
+/ divisão real 
+% resto da divisão inteira
+** potenciação
+
+Ordem de precedencia
+
+
+--Atribuição
+Simples (var a = 5+2)
+Auto-Atribuição (var n = 3, n= n +1)
+Simplificado (var n = 3, n**=5)
+Incremento (i++, i+2, i--)

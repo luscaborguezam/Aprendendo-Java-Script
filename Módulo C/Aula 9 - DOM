@@ -1,0 +1,29 @@
+Entendendo DOM
+
+VS Code:
+extenções
+Watch Chrome (Chrome)
+Node Exerc 
+
+O que é DOM
+
+-Document Object Model (Modelo de objetos para documentos)
+-conjunto de onjetos dentro do seu navegador, dão acesso aos componentes internos do website
+-não funciona no node.js
+-funciona quando o java script está rodando no site
+
+
+-------Arvore DOM
+inicia na raiz (window - Janela)
+dentro do window, temos diversos objetos (Child - filhos), ex:
+    -location (localização - URL pagina anterior) 
+    -document (Documento em que se está)
+        * html -> Parent de:
+            #head
+                ¨meta
+                ¨tilte...
+            #body
+                ¨h1
+                ¨p
+                ¨div...
+    -history (Guarda dados de caminho, onde veio, onde vai)
