@@ -27,3 +27,28 @@ dentro do window, temos diversos objetos (Child - filhos), ex:
                 ¨p
                 ¨div...
     -history (Guarda dados de caminho, onde veio, onde vai)
+
+
+------------- metodos de acess a elementos na arvore DOM
+Selecionando por:
+* Marca (tag name)
+    getElementByTagName()
+    getElementsByTagName()[0]
+* ID
+    getElementByID()
+
+* NOME
+    getElementsByName()
+
+* Classe
+    getElementsByClassName()
+    getElementsByClassName()[]
+* Seletor (recomendado)
+    querySelecor()
+    querySelectorAll() \\dentro do parenteses . ou # identificador
+
+Quando se tem muitos objetos da mesma classe nome usa-se muito:
+    getElementsByTagName()[]
+    getElementsByName()[]
+
+

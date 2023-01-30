@@ -1,0 +1,24 @@
+-----------  Eventos de Mouse
+//mouseenter (cursor entra na area do elemento)
+//mousemove (cursor se move dentr do elemtento)
+//mousedown (botão do mouse é pressionado)
+//mouseup (botão do mouse deixa de ser pressionado)
+//mouseclick
+//mouseout (mouse sai da div)
+
+mais eventos:
+
+https://developer.mozilla.org/pt-BR/docs/Web/Events
+
+--Função
+Conjunto de código
+{} bloco
+
+function ação(param){
+
+}
+
+---- ouvidores (listenner)
+
+variavel.addEventlistener('listenner1', function)
+variavel.addEventlistener('listenner1', function)

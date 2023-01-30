@@ -1,0 +1,29 @@
+//Variaveis compstas
+//array
+//vetor
+
+//armazena varios valores em uma mesma estrutura
+
+var a = [ 1, 2, 3]
+
+console.log(a)//
+// a[3] = 6 or num.push(6)
+a.push(6)//adiciona um elemento ao array
+console.log(`vetor tem ${a}`)
+a.length //numero de elementos
+a.sort()//ordena de ordem crescente
+
+// for(let pos=0; pos<a.length; pos++){
+//     console.log(`A posição ${pos} tem o valor ${pos}`)
+// }
+
+// versão mais recente no ecma script
+for(let iten in a){ //
+    console.log(iten)
+}
+
+//buscando valores no vetor
+a.indexOf(3)//se o valor existir dentro do vetor
+            //retorna a posição no vetor
+            //se não existir retorna -1
+console.log(`Posição do numero 3 é ${a.indexOf(3)}`)

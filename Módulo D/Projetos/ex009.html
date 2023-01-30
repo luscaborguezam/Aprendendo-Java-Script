@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran - Estrutura Condicional</title>
+</head>
+    <body>
+        <h1>sistema de multa</h1>
+        <label>Velocidade do carro</label>
+        <input type="number" name="txt_velocid" id="txt_velocid">
+        <input type="button" onclick="Verificar_velocidade()" value="Calcular">
+        <div id="Resultado"></div>
+
+        <script>
+            function Verificar_velocidade(){
+                $txt_velocidade = document.getElementById('txt_velocid')
+                $resultado = document.getElementById('Resultado')
+                velocidade = parseFloat($txt_velocidade.value)
+                console.log(velocidade)
+                if (velocidade>60){
+                    
+                    
+                    $resultado.innerHTML = `Multado, Velocidade ${velocidade}km/h acima do especificado 60km/h `
+                } else {
+                    $resultado.innerHTML = 'velocidade abaixo do limite'
+                }
+            }
+        </script>
+    </body>
+</html>

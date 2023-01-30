@@ -1,0 +1,22 @@
+//HTML5 e CSS
+//Functions
+// Objetos
+// modularização
+// RegEx - expreções regulares
+// JSON
+// AJAX
+// NodeJS
+
+//Objeto em java script
+// definido pelo {}
+let pessoa = {
+    nome:'lusk', 
+    sexo:'M', 
+    altura: 19,5,
+    peso: 83,
+    engoradar(p){
+        console.log('engordou')
+        this.peso += p
+    }//fim func
+}
+console.log(pessoa)

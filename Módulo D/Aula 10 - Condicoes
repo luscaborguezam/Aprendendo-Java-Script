@@ -1,0 +1,19 @@
+//---- Condições
+
+if (condição){
+
+} else {
+
+}
+
+//1° Condições simples
+if (condição){
+
+} 
+
+//2°
+if (condição){
+
+} else {
+
+}

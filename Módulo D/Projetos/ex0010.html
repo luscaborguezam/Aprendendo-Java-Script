@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nascionalidade</title>
+</head>
+<body>
+    <h1>Verificando nascionalidade Brasileira</h1>
+    <label>Digite o pais onde nasceu</label>
+    <input type="text" name="txtnasc" id="txtnasc">
+    <input type="button" value="Verificar" onclick="verificando_nasc()">
+    <div id="resposta"></div>
+    <script>
+        function verificando_nasc(){
+            $txtnasc = document.querySelector('#txtnasc')
+            $resposta = document.querySelector('#resposta')
+            nascionalidade = $txtnasc.value
+            console.log(nascionalidade)
+            if(nascionalidade.toLowerCase() == 'brasil'){
+                $resposta.innerHTML = '<p><strong>Brasileiro</strong></p>'
+                $resposta.style.color = 'green'
+            } else {
+                $resposta.innerHTML = '<p><strong>Estrangeiro</strong></p>'
+                $resposta.style.color = 'red'
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+// Condições aninhadas
+
+// if(false){
+//     var a =1
+// }else{
+//     if(True){
+//         var a = 2
+//         if(true){
+//             var b = 1
+//             var soma = a + b
+//         }
+//     } else if (False){
+//         var sub = a - b
+//     } else {
+//         return 0
+//     }
+// }
+
+// pegando ahora atual
+data = new Date()
+var hora = data.getHours()
+console.log(hora)
+
+// // Condição Multipla
+// switch(Exprecao){
+//     case valor 1:
+//         break
+//     case valor 2:
+//         break
+//     default:
+//         break
+// }
+
+data_atual = data.getDay()
+// domingo = 0
+// segunda = 1 ...
+switch(data_atual){
+    case 0:
+        break
+    case 1:
+        break
+    case 2:
+        break
+    case 3:
+        break
+    default:
+        break                
+    }

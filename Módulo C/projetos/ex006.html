@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event DOM</title>
+    <style>
+        div.area{
+            font: normal 'Arial';
+            background-color: brown;
+            height: 100px;
+            width: 100px;
+            line-height: 100px;
+            text-align: center;
+            margin: 5px;
+        }
+
+        div#container{
+            height: 100%;
+            width: 100%;
+            display: flex;
+        }
+    </style>
+    <script>
+        //Eventos de Mouse
+        //mouseenter (cursor entra na area do elemento)
+        //mousemove (cursor se move dentr do elemtento)
+        //mousedown (botão do mouse é pressionado)
+        //mouseup (botão do mouse deixa de ser pressionado)
+        //mouseclick
+        //mouseout (mouse sai da div)
+    </script>
+</head>
+<body>
+    <div id="container">
+
+        <div id="a1" class="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+            Interaja
+        </div>
+        
+        <div id="a2" class='area'onclick="clicar()">
+            Interaja
+        </div>
+        
+    </div>
+    <script>
+        function clicar(){
+            var $a = window.document.getElementById('a1')
+            $a.style.background = 'red'
+            $a.innerText = 'Clicou'
+
+            $b.style.background = 'green'
+            $b.innerText = 'Click'
+
+        }//fim clicar
+        function entrar(){
+            var $a = window.document.getElementById('a1')
+            $a.innerText = 'Entrou'
+
+            $b.innerText = 'Enter'
+        }//fim entrar
+        function sair(){
+            var $a = document.getElementById('a1')
+            $a.innerText = 'Interaja'
+            $a.style.background = 'brown'
+
+            $a.style.background = 'brown'
+            $a.innerText = 'Interaja'
+
+        }
+
+        //listener
+        var $b = document.getElementById('a2')
+        $b.addEventListener('click', clicar)
+        $b.addEventListener('mouseenter', entrar)
+        $b.addEventListener('mouseout', sair)
+
+        
+    </script>
+</body>
+</html>
