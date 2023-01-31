@@ -1,0 +1,40 @@
+body{
+    font-size: 18px 'Arial';
+    background-color: rgba(89, 0, 255, 0.514);
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+section{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    min-height: 200px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.466);
+    
+}
+
+div{
+    margin: 10px;
+    text-align: left;
+    padding: 0px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+
+input{
+    border-radius: 3px;
+    }
+
+#lista{
+    min-height: 100px;
+    min-width: 200px;
+}
