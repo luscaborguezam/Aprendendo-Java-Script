@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/analisador.css" rel="stylesheet">
+    <title>Analisador</title>
+</head>
+<body>
+    <header>
+        <h1>Analisador de Número</h1>
+    </header>
+    <section id="menu">
+        <div id="div_inicio">
+            <label>Número (entre 0 e 100):</label>
+            <input type="number" id="txtnum">
+            <input type="button" value="Add" onclick="add_item()">
+        </div><!-- fim inicio -->
+        <div id="lista">
+            <!-- <select id="lista"></select> -->
+            <select id="lista" multiple> <!-- efeito de multiple == efeito de size='10'-->
+                <option>Digite um número acima</option>
+            </select>
+        </div><!-- fim lista -->
+        <div id="res">
+
+        </div> <!-- fim res -->
+    </section>
+    <footer>
+        <p>&copy Lusk</p>
+    </footer>
+    <script src="../JS/analisador.js"></script>
+</body>
+</html>
