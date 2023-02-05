@@ -17,6 +17,7 @@ section{
     border-radius: 10px;
     width: 500px;
     min-height: 200px;
+    min-height: 250px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.466);
     
